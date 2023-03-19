@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="navbar">
+            <h1>WeatherApp</h1>
+        </div>
+        <div class="displaysection">
+            <div class="contentsection">
+                <div class="searchsection">
+                    <input type="search" id="userinput">
+                    <button id="btn" class="btn" onclick="getweather()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            <div class="card" id="card">
+                <div id="uppersection">
+                    <h2 id="head"></h2>
+                </div>
+                <div id="lowersection">
+                    <h3 id="skycondition"></h3>
+                    <h3 id="temp"></h3>
+                    <h3  id="windspeed"></h3>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
